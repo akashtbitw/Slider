@@ -33,6 +33,7 @@ body {
 }
 .slider {
     display: flex;
+    transition: all 1s ease;
 }
 .image {
     height: 100%;
@@ -43,7 +44,7 @@ body {
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid rgb(246, 20, 20);
     cursor: pointer;
 }
 
